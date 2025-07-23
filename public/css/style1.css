@@ -1,0 +1,242 @@
+body{
+    display: flex;
+    flex-direction: column;
+    /* min-height: 100vh; */
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/*   */
+
+/* *{
+    border: #f42e57;
+    border-width: 1px;
+    border-style: solid;
+}   */
+
+.btn{
+    background-color: #f42e57;
+    border: none;
+    transition: 0.2s;
+}
+
+.btn:hover{
+    background-color: #d90d36; /* hover */
+   
+}
+.fa-magnifying-glass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+
+
+.btn-circle{
+    box-shadow: 0px 7px 23px rgba(118, 44, 44, 0.127);
+    border-radius: 15px;
+    border: none;
+    background-color: #f42e57;
+    height: 45px;
+    width: 47px;
+    transition: 0.5s;
+    margin-left: -60px;
+}
+.btn-circle:hover{
+     background-color: #d90d36;
+
+}
+
+/* .searchbar{
+    width: 500px;
+
+} */
+.searchbox{
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 20px;
+    height: 55px;
+    width: 300px;
+    margin: 0px;
+    margin-left: -180px;
+    
+    
+}
+
+.fa-circle-check{
+    font-size: 150px;
+}
+
+
+.breathingroom{
+    height: 15npx;
+    /* background-color: #d90d36; */
+
+}
+.breathingroom30px{
+    height: 30px;
+    /* background-color: #d90d36; */
+}
+
+.logo{
+    height: 40px;
+    width: 125px;
+}
+
+.navbar{
+    height: 100px;
+}
+
+.footer{
+
+    background-color: rgb(255, 153, 0);
+    padding: 1rem 0;
+    
+}
+
+
+.socials{
+    width: 100px;
+    flex-wrap: wrap;
+    color: #f42e57;
+    
+}
+.footer-links{
+    color: #f42e57;
+    width: 650px;
+    flex-wrap: wrap;
+}
+
+
+
+.listingcard{
+    border-style: none;
+    margin: 10px;
+    border-radius: 30px;
+    transition: 0.2s;
+}
+.card-img-top{
+    height: 215px;
+    width: 240px;
+    border-radius: 30px;;
+}
+
+:hover.listingcard{
+    scale: 1.03;
+}
+
+.form{
+    height: 70vh;
+}
+
+.card-img-top-details{
+    margin-top: 35px;
+    height: 500px;
+    width: auto;
+    border-radius: 30px;
+
+}
+
+.card-details{
+    width: auto;
+    height: 750px;
+
+}
+.details-btns{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    padding: 10px;
+    height: 230px;
+}
+.card-title{
+    margin-bottom: 45px;
+    padding-top: 15px;
+    display: flex;
+    justify-content:center;
+}
+
+.revdate{
+    opacity: 50%;
+    margin-left: 5px;
+    font-size: small;
+}
+.head{
+    display: flex;
+    flex-direction: column; 
+}
+.review{
+    display: flex;
+    align-items:center;
+}
+
+.map{
+    display: flex;
+    justify-content: center;
+}
+#map {
+    width: 75vw;
+    height: 500px;
+    border-radius: 15px;
+}
+
+.card-details-booking{
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    width: 350px;
+    height: 270px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 50px;
+}
+.card-pricing-and-data{
+    width: 900px;
+}
+.booking-btn{
+    width: 90px;
+}
+
+.card-body{
+    width: 250px;
+    padding: 10px;
+
+}
+
+.line{
+    color: rgb(127, 127, 127);
+}
+
+.reviewcard{
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+.reviewcardhead,.reviewcardbody{
+    padding: 15px;
+}
+
+/* .navbar-collapse{
+    width: 0px;
+    height: 40px;
+} */
+/* .navbar-collapse{
+    width: 100px;
+} */
+/* 
+.collapse{
+    width: 200px;
+} */
+/* .searchbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
