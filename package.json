@@ -1,17 +1,18 @@
 {
-  "engines": {
-    "node":"22.16.0"
-  },
   "name": "airbnb",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "22.16.0"
+  },
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "@mapbox/mapbox-sdk": "^0.16.1",
     "connect-flash": "^0.1.1",
