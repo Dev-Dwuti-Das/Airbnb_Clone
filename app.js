@@ -44,6 +44,11 @@ async function main() {
     await mongoose.connect(db_url);   
 }
 
+app.get("/", (req, res) => {
+  res.redirect("/listing");
+});
+
+
 app.use((err,req,res,next)=>{
     let {statuscode = 500,message = 'something went wrong'} = err;
     res.render("error.ejs",{message});
