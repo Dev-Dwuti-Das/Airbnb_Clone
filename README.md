@@ -34,13 +34,13 @@ A full-stack **Airbnb-inspired web application** that allows users to create, br
 ## ✨ Features
 - 🔑 **User Authentication & Authorization** – Register, Login, Logout using Passport.js  
 - 🏘️ **Listings Management** – Create, Read, Update, and Delete property listings  
-- 🗺️ **Map Integration** – Interactive maps powered by Mapbox  
+- 🗺️ **Map Integration** – Interactive maps powered by Mapbox
+- 🔍 **Search Functionality** – Search listings by title, location, or keywords  
 - 🖼️ **Image Uploads** – Upload and manage images with Cloudinary & Multer  
 - 📅 **Booking System** – Date conflict validation for reservations  
 - ⭐ **Review & Rating** – Users can leave reviews and ratings for listings  
 - 💻 **Responsive UI** – Clean and mobile-friendly design using Bootstrap 5  
 - ☁️ **MongoDB Atlas** – Scalable cloud database for production  
-
 ---
 
 ## 📂 Project Structure
@@ -71,25 +71,28 @@ Follow these steps to run the project locally:
    npm install
    ```
 
-3. **Create a `.env` file** in the root directory and add the following:
-   ```env
-   MONGO_URI=your_mongodb_atlas_uri
-   CLOUDINARY_CLOUD_NAME=your_cloudinary_name
-   CLOUDINARY_KEY=your_cloudinary_key
-   CLOUDINARY_SECRET=your_cloudinary_secret
-   MAPBOX_TOKEN=your_mapbox_token
-   SESSION_SECRET=your_session_secret
-   ```
+3. **Create a `.env` file in the project root and add the following:**
+```env
+# MongoDB Atlas
+MONGO_URI=your_new_mongodb_atlas_connection_string
+
+# Cloudinary
+CLOUDINARY_CLOUD_NAME=your_new_cloud_name
+CLOUDINARY_KEY=your_new_cloud_api_key
+CLOUDINARY_SECRET=your_new_cloud_api_secret
+
+# Mapbox
+MAPBOX_TOKEN=your_new_mapbox_token
+
+# Express Session
+SESSION_SECRET=your_random_session_secret
+```
 
 4. **Run the development server**
    ```bash
    npm start
    ```
-   or with nodemon:
-   ```bash
-   npm run dev
-   ```
-
+   
 5. Open your browser and navigate to:
    ```
    http://localhost:3000
@@ -104,11 +107,11 @@ Follow these steps to run the project locally:
 
 ---
 
-## 🛠️ Future Enhancements
-- ✅ Advanced search & filtering  
-- ✅ Wishlist functionality  
-- ✅ Payment integration (Stripe/PayPal)  
-
+## 🛠️ Future Enhancements 
+- ✅ Wishlist functionality
+- ✅ AI based suggestion
+- ✅ AI based listing
+ 
 ---
 
 ## 🤝 Contributing
@@ -123,4 +126,4 @@ This project is licensed under the **MIT License** – you’re free to use, mod
 ---
 
 ### 💡 Developer
-Made with ❤️ by [Dev Dwuti Das](https://github.com/your-username)
+Made with ❤️ by [Dev Dwuti Das](https://github.com/Dev-Dwuti-Das)
