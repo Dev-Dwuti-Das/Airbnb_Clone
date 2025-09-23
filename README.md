@@ -4,6 +4,16 @@ A full-stack **Airbnb-inspired web application** that allows users to create, br
 
 ---
 
+## 📸 Screenshots
+![Image](https://github.com/user-attachments/assets/00be90a9-b5b3-4d72-8e41-fdb22ac4cd0a)
+<img width="1919" height="1057" alt="Image" src="https://github.com/user-attachments/assets/7a273965-333d-4a80-a36b-d769b7afcbc8" />
+<img width="1918" height="1074" alt="Image" src="https://github.com/user-attachments/assets/511e05d3-542f-487e-8c02-1d3c39a5aeb0" />
+<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/2d6a500d-0c40-42e5-ab01-63055275f31c" />
+
+
+
+---
+
 ## 🚀 Live Demo  
 🌐 **Hosted Link**: [Airbnb Clone](https://airbnb-clone-snm7.onrender.com/listing)
 
@@ -97,14 +107,8 @@ SESSION_SECRET=your_random_session_secret
    ```
    http://localhost:3000
    ```
-
+   
 ---
-
-## 📸 Screenshots
-![Image](https://github.com/user-attachments/assets/00be90a9-b5b3-4d72-8e41-fdb22ac4cd0a)
-
----
-
 ## 🛠️ Future Enhancements 
 - ✅ Wishlist functionality
 - ✅ AI based suggestion
