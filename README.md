@@ -123,4 +123,4 @@ This project is licensed under the **MIT License** – you’re free to use, mod
 ---
 
 ### 💡 Developer
-Made with ❤️ by [Your Name](https://github.com/your-username)
+Made with ❤️ by [Dev Dwuti Das](https://github.com/your-username)
