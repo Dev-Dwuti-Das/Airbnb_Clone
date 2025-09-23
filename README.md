@@ -101,9 +101,7 @@ SESSION_SECRET=your_random_session_secret
 ---
 
 ## 📸 Screenshots
-| Home Page | Listing Details |
-|-----------|------------------|
-| *(Add screenshot here)* | *(Add screenshot here)* |
+![Image](https://github.com/user-attachments/assets/00be90a9-b5b3-4d72-8e41-fdb22ac4cd0a)
 
 ---
 
