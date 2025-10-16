@@ -1,21 +1,32 @@
 <% layout('layouts/boiler') %>
 <body>
-  <div class="row">
+  <div class="row g-1">
     <div class="col">
        <h1 class="hero_text">Inspiring locations to Lodge </h1>
-       <div class="para py-3 ps-2 pe-2">Create memorable travel moments by choosing a designer house with a warm ambiance as your accommodation.</div>
-       <div class="searchbar">
-                <form class="d-flex align-items-center" role="search" action="/listing/search">
-                <input class="form-control rounded-pill searchbox me-2" type="search" placeholder="Search" name="searchbox" aria-label="Search"/>
-                <button class="btn-circle btn-success rounded-pill" type="submit"><i class="fa-solid fa-magnifying-glass class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i></button>   
-                </form>
-        </div>
+       <div class="para py-3 ps-1 pe-5">Create memorable travel moments by choosing a designer house with a warm ambiance as your accommodation.</div>
+       <div class="searchbar d-flex justify-content-center align-items-center my-3">
+  <form class="d-flex align-items-center" role="search" action="/listing/search">
+    <input
+      class="form-control rounded-pill searchbox me-2 "
+      type="search"
+      placeholder="Search"
+      name="searchbox"
+      aria-label="Search"
+    />
+    <button
+      class="btn-circle btn-success rounded-pill"
+      type="submit"
+    >
+      <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+    </button>
+  </form>
+</div>
     </div>
     <div class="col-6">
-       <div class="row"><img class="landing_page_img p-0 my-2" src="assests/pic4.jpg" alt="pic2.jpg"></div>
+       <div class="row hero_img"><img class="landing_page_img p-0 my-2" src="assests/pic4.jpg" alt="pic2.jpg"></div>
        <div class="row mt-1">
           <div class="col landing_page_widget_white rounded-pill px-4 py-3">
-            69+
+              69+
           </div>
        </div>
       </div>

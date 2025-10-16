@@ -6,6 +6,8 @@ body{
     font-weight: 400;
     font-style: normal;
     background-color: rgb(0, 0, 0);
+    margin-top: 30px !important; 
+      padding-top: 0 !important;
     
 }
 
@@ -14,17 +16,19 @@ body{
 }
 .para{
     color: aliceblue;
+    font-size: 20px;
 }
 
 .hero_text{
     font-size: 95px;
     color: aliceblue;
+    line-height: 1;
 }
-*{
+/* *{
     border: #f42e57;
     border-width: 1px;
     border-style: solid;
-}  
+}   */
 
 .btn{
     background-color: #f42e57;
@@ -59,7 +63,15 @@ body{
      background-color: #d90d36;
 
 }
+.navbar{
+      margin-top: 10px !important; 
+      padding-top: 0 !important;
+    }
 
+.hero_img{
+    height: 500px;
+
+    }
 /* .searchbar{
     width: 500px;
 
@@ -243,7 +255,7 @@ h1{
 }
 
 .landing_page_widget_white{
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(239, 239, 239);
     font-weight: 800;
     font-size: 25px;
 }
