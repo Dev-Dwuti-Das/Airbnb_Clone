@@ -242,6 +242,12 @@ h1{
     border-radius: 40px;
 }
 
+.landing_page_widget_white{
+    background-color: rgb(245, 245, 245);
+    font-weight: 800;
+    font-size: 25px;
+}
+
 /* .navbar-collapse{
     width: 0px;
     height: 40px;
