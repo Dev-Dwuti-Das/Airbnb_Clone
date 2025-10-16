@@ -1,46 +1,55 @@
-
-<nav class="navbar navbar-expand-sm bg-body-tertiary sticky-top ">
-    <div class="container-fluid">
-        <div class="leftnav d-flex align-items-center">
-        <a class="navbar-brand" href="/listing"><img class="logo ms-4" src="/Airbnb_Logo.png"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<nav class="navbar navbar-expand-sm bg-body-tertiary my-5 p-0">
+  <div class="container-fluid justify-content-between">
+    <div class="leftnav d-flex align-items-center ms-5">
+      <a class="navbar-brand ms-5" href="/listing">
+        <img class="logo" src="/Airbnb_Logo.png">
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
         <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- <div class="collapse navbar-collapse" id="navbarNav"> -->
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="/listing"><b>Home</b></a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="/listing/new"><b>Be a host</b></a>
-                </li>
-            </ul>
-        </div>
-        <!-- </div> -->
-        <div class="searchbar">
-                <form class="d-flex align-items-center" role="search" action="/listing/search">
-                <input class="form-control rounded-pill searchbox me-2" type="search" placeholder="Search" name="searchbox" aria-label="Search"/>
-                <button class="btn-circle btn-success rounded-pill" type="submit"><i class="fa-solid fa-magnifying-glass class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i></button>   
-                </form>
-        </div>
-        <div>
-            <% if(!currentuser){ %>
-                <div class="dropdown me-3">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        login 
-                    </button>
-                    <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="/signup">Sign up</a></li>
-                    <li><a class="dropdown-item" href="/login">Login</a></li>
-                    </ul>
-                </div>
-            <%}%>
-            <% if(currentuser){ %>
-                <a href="/logout">
-                    <button class="btn btn-primary"> logout </button>
-                </a
-            <%}%>
-        </div>
+      </button>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="/listing"><b>Home</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/listing/new"><b>Be a host</b></a>
+        </li>
+      </ul>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+    <div class="me-5">
+      <% if(!currentuser){ %>
+      <div class="dropdown me-5">
+        <button
+          class="btn btn-secondary dropdown-toggle rounded-pill"
+          type="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          login
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="/signup">Sign up</a></li>
+          <li><a class="dropdown-item" href="/login">Login</a></li>
+        </ul>
+      </div>
+      <%}%>
+
+      <% if(currentuser){ %>
+      <a href="/logout">
+        <button class="btn btn-primary">logout</button>
+      </a>
+      <%}%>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
 </nav>

@@ -5,14 +5,26 @@ body{
     font-family: "Outfit", sans-serif;
     font-weight: 400;
     font-style: normal;
+    background-color: rgb(0, 0, 0);
+    
 }
-/*   */
 
-/* *{
+*{
+    background-color: black;
+}
+.para{
+    color: aliceblue;
+}
+
+.hero_text{
+    font-size: 95px;
+    color: aliceblue;
+}
+*{
     border: #f42e57;
     border-width: 1px;
     border-style: solid;
-}   */
+}  
 
 .btn{
     background-color: #f42e57;
@@ -60,6 +72,7 @@ body{
     width: 300px;
     margin: 0px;
     margin-left: -180px;
+    background-color: black;
     
     
 }
@@ -84,17 +97,16 @@ body{
     width: 125px;
 }
 
-.navbar{
-    height: 100px;
-}
-
 .footer{
 
-    background-color: rgb(255, 153, 0);
+    background-color: rgb(0, 0, 0);
     padding: 1rem 0;
     
 }
 
+b{
+    color: aliceblue;
+}
 
 .socials{
     width: 100px;
@@ -107,7 +119,6 @@ body{
     width: 650px;
     flex-wrap: wrap;
 }
-
 
 
 .listingcard{
@@ -223,6 +234,13 @@ h1{
 .reviewcardhead,.reviewcardbody{
     padding: 15px;
 }
+.red{
+     background-color: #d90d36;
+}
+
+.landing_page_img{
+    border-radius: 40px;
+}
 
 /* .navbar-collapse{
     width: 0px;
@@ -235,8 +253,8 @@ h1{
 .collapse{
     width: 200px;
 } */
-/* .searchbar{
+.searchbar{
     display: flex;
     justify-content: center;
     align-items: center;
-} */
+}

@@ -1,6 +1,31 @@
 <% layout('layouts/boiler') %>
 <body>
-<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-1 mt-3">
+  <div class="row">
+    <div class="col">
+       <h1 class="hero_text">Inspiring locations to Lodge </h1>
+       <div class="para">Create memorable travel moments by choosing a designer house with a warm ambiance as your accommodation.</div>
+       <div class="searchbar">
+                <form class="d-flex align-items-center" role="search" action="/listing/search">
+                <input class="form-control rounded-pill searchbox me-2" type="search" placeholder="Search" name="searchbox" aria-label="Search"/>
+                <button class="btn-circle btn-success rounded-pill" type="submit"><i class="fa-solid fa-magnifying-glass class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i></button>   
+                </form>
+        </div>
+    </div>
+    <div class="col-6">
+       <div class="row"><img class="landing_page_img p-0 my-2" src="assests/pic4.jpg" alt="pic2.jpg"></div>
+       <div class="row">
+        <div class="rounded-pill landing_page_widget_white">
+          <div class="row">
+            <div class="col"><b>69+</b></div>
+            <div class="col"><b>Unique places</b></div>
+          </div>
+       </div>
+      </div>
+       <div class="row"><h1>image</h1></div>
+    </div>
+   
+  </div>
+<div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3  mt-3">
   <% for (let item of data) { %>
     <div class="col">
       <div class="listingcard">
