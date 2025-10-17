@@ -11,9 +11,6 @@ body{
     
 }
 
-*{
-    background-color: black;
-}
 .para{
     color: aliceblue;
     font-size: 20px;
@@ -25,11 +22,13 @@ body{
     line-height: 1;
 }
 /* *{
-    border: #f42e57;
+    border: #3cff00;
     border-width: 1px;
     border-style: solid;
 }   */
-
+.homepage_widget_secondary{
+    border-radius: 25px;
+}
 .btn{
     background-color: #f42e57;
     border: none;
@@ -44,7 +43,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 22px;
+    font-size: 22px; /* added by anand */
 }
 
 
@@ -59,17 +58,18 @@ body{
     transition: 0.5s;
     margin-left: -60px;
 }
+
 .btn-circle:hover{
      background-color: #d90d36;
 
 }
-.navbar{
-      margin-top: 10px !important; 
-      padding-top: 0 !important;
+.navbar_custom{
+      /* margin-top: 10px !important;  */
+      background-color: black;
     }
 
 .hero_img{
-    height: 500px;
+    height: 450px;
 
     }
 /* .searchbar{
@@ -251,7 +251,7 @@ h1{
 }
 
 .landing_page_img{
-    border-radius: 40px;
+    border-radius: 35px;
 }
 
 .landing_page_widget_white{
@@ -260,17 +260,26 @@ h1{
     font-size: 25px;
 }
 
-/* .navbar-collapse{
-    width: 0px;
-    height: 40px;
-} */
-/* .navbar-collapse{
-    width: 100px;
-} */
-/* 
-.collapse{
-    width: 200px;
-} */
+.modern-btn{
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(10px);           
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: black;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.modern-btn:hover {
+  transform: translateY(-3px) scale(1.01);  
+}
+
+
+.search_icon{
+    color: aliceblue;
+}
 .searchbar{
     display: flex;
     justify-content: center;

@@ -1,53 +1,78 @@
 <% layout('layouts/boiler') %>
+
 <body>
-  <div class="row g-1">
-    <div class="col">
-       <h1 class="hero_text">Inspiring locations to Lodge </h1>
-       <div class="para py-3 ps-1 pe-5">Create memorable travel moments by choosing a designer house with a warm ambiance as your accommodation.</div>
-       <div class="searchbar d-flex justify-content-center align-items-center my-3">
-  <form class="d-flex align-items-center" role="search" action="/listing/search">
-    <input
-      class="form-control rounded-pill searchbox me-2 "
-      type="search"
-      placeholder="Search"
-      name="searchbox"
-      aria-label="Search"
-    />
-    <button
-      class="btn-circle btn-success rounded-pill"
-      type="submit"
-    >
-      <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
-    </button>
-  </form>
-</div>
+  <div class="row">
+    <div class="col me-3">
+      <h1 class="hero_text">Inspiring locations to Lodge</h1>
+      <div class="para py-3 ps-1 pe-5">
+        Create memorable travel moments by choosing a designer house with a warm
+        ambiance as your accommodation.
+      </div>
+
+      <div class="searchbar d-flex justify-content-center align-items-center my-3">
+        <form class="d-flex align-items-center" role="search" action="/listing/search">
+          <input class="form-control rounded-pill searchbox me-2" type="search" placeholder="Search" name="searchbox"
+            aria-label="Search" />
+          <button class="btn-circle btn-success rounded-pill" type="submit">
+            <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+          </button>
+        </form>
+      </div>
     </div>
+
     <div class="col-6">
-       <div class="row hero_img"><img class="landing_page_img p-0 my-2" src="assests/pic4.jpg" alt="pic2.jpg"></div>
-       <div class="row mt-1">
-          <div class="col landing_page_widget_white rounded-pill px-4 py-3">
-              69+
-          </div>
-       </div>
+      <!-- 🟢 Hero image section with overlay text -->
+      <div class="row hero_img position-relative">
+        <div class="hero_img_text position-absolute top-0 start-0 text-white fw-medium fs-1 pe-5 p-3 me-2">
+          Exceptional properties around the globe
+        </div>
+        <div class="hero_widget_btn position-absolute bottom-0  start-0 text-white p-4">
+          <button class="modern-btn p-3 px-4 rounded-pill"> Show Top rated villas <i class="ms-2 fa-solid fa-location-arrow fa-lg"></i></button>
+        </div>
+
+        <img class="landing_page_img p-0 my-2 w-100" src="assests/pic32.jpg" alt="pic2.jpg">
       </div>
-       <div class="row"><h1>image</h1></div>
+
+      <div class="row mt-1">
+        <div class="d-flex justify-content-between landing_page_widget_white rounded-pill px-4 py-2">
+          <div>6900+</div>
+          <div class="fw-medium">Unique places</div>
+        </div>
+      </div>
+
+      <div class="row mt-3 gx-4">
+        <div class="col p-0 me-1 position-relative">
+          <div class="location_marker position-absolute bottom-0 start-0 text-white p-4">
+             <button class="modern-btn rounded-circle p-3"><i class="fa-solid fa-location-dot fa-xl p-1"></i></button>
+          </div>
+          <img class="homepage_widget_secondary" src="/assests/pic6.jpg" height="250" width="320">
+        </div>
+        <div class="col p-0 ms-1 position-relative">
+          <div class="location_marker position-absolute bottom-0 start-0 text-white p-4">
+             <button class="modern-btn rounded-circle p-3"><i class="fa-solid fa-location-dot fa-xl p-1"></i></button>
+          </div>
+          <img class="homepage_widget_secondary" src="/assests/pic1.jpg" height="250" width="320">
+        </div>
+      </div>
     </div>
-   
   </div>
-<div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3  mt-3">
-  <% for (let item of data) { %>
-    <div class="col">
-      <div class="listingcard">
-        <a href="/listing/details/<%= item._id %>" class="text-decoration-none text-dark">
-          <img src="<%= item.image.url %>" class="card-img-top" alt="Listing Image">
-          <div class="card-body">
-            <p class="card-text mx-auto"><%= item.title %><br>
-              <b>&#8377; <%= item.price.toLocaleString("en-IN") %></b> for 2 nights
-            </p>
-          </div>
-        </a>
+
+  <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 mt-3">
+    <% for (let item of data) { %>
+      <div class="col">
+        <div class="listingcard">
+          <a href="/listing/details/<%= item._id %>" class="text-decoration-none text-dark">
+            <img src="<%= item.image.url %>" class="card-img-top" alt="Listing Image">
+            <div class="card-body">
+              <p class="card-text mx-auto">
+                <%= item.title %><br>
+                <b>&#8377; <%= item.price.toLocaleString("en-IN") %></b> for 2 nights
+              </p>
+            </div>
+          </a>
+        </div>
       </div>
-    </div>
-  <% } %>
-</div>
+    <% } %>
+  </div>
 </body>
+
