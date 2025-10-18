@@ -26,6 +26,13 @@ body{
     border-width: 1px;
     border-style: solid;
 }   */
+
+.img-mask{
+    height: 90px;
+    width: 150px;
+}
+
+
 .homepage_widget_secondary{
     border-radius: 25px;
 }
@@ -148,15 +155,15 @@ b{
 }
 
 
-.listingcard{
+/* .listingcard{
     border-style: none;
     margin: 10px;
     border-radius: 30px;
     transition: 0.2s;
-}
+} */
 .card-img-top{
-    height: 215px;
-    width: 240px;
+    height: 315px;
+    width: 400px;
     border-radius: 30px;;
 }
 

@@ -68,7 +68,7 @@
           <div
             class="hero_img_text position-absolute top-0 start-0 text-white fw-medium fs-2 px-3 pt-3"
           >
-           Recommended Places
+            Recommended Places
           </div>
           <div
             class="location_marker position-absolute bottom-0 start-0 text-white p-4"
@@ -95,7 +95,7 @@
           <div
             class="hero_img_text position-absolute top-0 start-0 text-white fw-medium fs-2 px-3 pt-3"
           >
-           Top finds
+            Top finds
           </div>
           <img
             class="homepage_widget_secondary"
@@ -108,19 +108,45 @@
     </div>
   </div>
 
-  <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 mt-3">
+
+<div class="hero_text py-3 ps-1 pe-5">
+  Make your move and discover 
+  <span>
+    <img class="rounded-pill img-mask" src="/assests/pic7.jpg" alt="Mountain" />
+  </span>
+  the world 
+  <span class="img-mask">
+    <img src="/assets/beach.jpg" alt="Beach" />
+  </span>
+  that's waiting for you.
+</div>
+
+
+  <div
+    class="row row-cols-xs-1 row-cols-sm-2 row-cols-md-2 row-cols-xxl-3 mt-3"
+  >
     <% for (let item of data) { %>
     <div class="col">
-      <div class="listingcard">
+      <div class="listingcard d-flex justify-content-center">
         <a
           href="/listing/details/<%= item._id %>"
           class="text-decoration-none text-dark"
         >
-          <img
-            src="<%= item.image.url %>"
-            class="card-img-top"
-            alt="Listing Image"
-          />
+          <div class="position-relative">
+            <div
+              class="hero_widget_btn position-absolute bottom-0 start-0 text-white p-2"
+            >
+              <button class="modern-btn p-2 px-2 rounded-pill">
+                <b class="fw-semibold">&#8377; <%= item.price.toLocaleString("en-IN") %></b>/nights
+              </button>
+            </div>
+            <img
+              src="<%= item.image.url %>"
+              class="card-img-top img-fluid w-md-75"
+              alt="Listing Image"
+            />
+          </div>
+
           <div class="card-body">
             <p class="card-text mx-auto">
               <%= item.title %><br />
