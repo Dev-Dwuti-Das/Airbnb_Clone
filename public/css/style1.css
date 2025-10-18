@@ -57,6 +57,7 @@ body{
     width: 47px;
     transition: 0.5s;
     margin-left: -60px;
+    z-index: 1;
 }
 
 .btn-circle:hover{
@@ -76,18 +77,32 @@ body{
     width: 500px;
 
 } */
-.searchbox{
-    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+.searchbox {
+    backdrop-filter: blur(10px) saturate(150%);
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.25);
     border-radius: 15px;
     padding: 20px;
     height: 55px;
     width: 300px;
-    margin: 0px;
+    margin: 0;
     margin-left: -180px;
-    background-color: black;
-    
-    
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+    color: white;
+    transition: all 0.3s ease;
+    z-index: 0;
 }
+
+/* Focus effect */
+.searchbox:focus {
+    background-color: rgba(255, 255, 255, 0.25);
+    border-color: rgba(255, 255, 255, 0.4);
+    box-shadow: none;
+    color: aliceblue;
+    outline: none;
+}
+
+
 
 .fa-circle-check{
     font-size: 150px;
