@@ -21,10 +21,8 @@
         });
 
         const marker = new mapboxgl.Marker({
-        color: "#f42e57",
+        color: "#7a00ff",
         draggable: true
-        
-
         })
         .setLngLat(JSON.parse(geo))
         .addTo(map);

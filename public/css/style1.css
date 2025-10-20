@@ -15,6 +15,11 @@ body {
   font-size: 20px;
 }
 
+.para2 {
+  color: aliceblue;
+  font-size: 25px;
+}
+
 .para1 {
   color: aliceblue;
   font-size: 15px;
@@ -57,7 +62,14 @@ body {
   width: 190px;
 }
 
-/* * {
+.hero_text {
+  font-size: clamp(5rem, 4vw, 5rem); /* scales from ~24px to ~48px */
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+/* 
+* {
   border: #3cff00;
   border-width: 1px;
   border-style: solid;
