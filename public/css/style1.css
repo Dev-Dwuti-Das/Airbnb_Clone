@@ -56,12 +56,12 @@ body {
   height: 90px;
   width: 190px;
 }
-/* 
+
 * {
   border: #3cff00;
   border-width: 1px;
   border-style: solid;
-} */
+}
 
 .valid-feedback{
   font-weight: 600;
@@ -131,6 +131,21 @@ body {
     width: 500px;
 
 } */
+.formbox1{
+  backdrop-filter: blur(10px) saturate(150%);
+  background-color: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 15px;
+  padding: 8px 20px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  transition: all 0.3s ease;
+}
 
 .formbox{
   backdrop-filter: blur(10px) saturate(150%);
@@ -160,6 +175,14 @@ body {
   color: white;
   transition: all 0.3s ease;
   z-index: 0;
+}
+
+.formbox1:focus {
+  background-color: rgba(255, 255, 255, 0.25);
+  border-color: rgba(255, 255, 255, 0.4);
+  box-shadow: none;
+  color: aliceblue;
+  outline: none;
 }
 
 .formbox:focus {

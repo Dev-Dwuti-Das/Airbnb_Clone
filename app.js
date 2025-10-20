@@ -27,6 +27,7 @@ app.use(express.static("public"));
 app.use(methodOverride("_method"));
 app.engine('ejs', engine);
 app.use(express.static(path.join(__dirname, "public")));
+app.use(express.static(__dirname + '/public'));
 app.use(express.json());
 app.use("/listing",listing);
 app.use("/",userrout);
