@@ -60,8 +60,14 @@ body {
 }
 
 .btn:hover {
-  background-color: #d90d36; /* hover */
+  background-color:rgb(144, 41, 253); 
 }
+
+.searchbox::placeholder {
+    color: white;
+    opacity: 1; 
+  }
+
 .fa-magnifying-glass {
   display: flex;
   justify-content: center;
@@ -82,7 +88,7 @@ body {
 }
 
 .btn-circle:hover {
-  background-color: #d90d36;
+  background-color: rgb(144, 41, 253); 
 }
 .navbar_custom {
   /* margin-top: 10px !important;  */
@@ -152,10 +158,10 @@ b {
 .socials {
   width: 100px;
   flex-wrap: wrap;
-  color: #f42e57;
+  color: #7a00ff;
 }
 .footer-links {
-  color: #f42e57;
+  color: #7a00ff;
   width: 650px;
   flex-wrap: wrap;
 }
@@ -234,6 +240,29 @@ h1 {
   height: 500px;
   border-radius: 15px;
 }
+
+.home-link, .host-link {
+  text-decoration: none;
+  color: white; 
+  font-weight: 600;
+  transition: all 0.3s ease; 
+  display: inline-block; /* allows scaling without layout issues */
+}
+
+.home-link:hover, .host-link:hover {
+  color: rgb(144, 41, 253);
+  transform: scale(1.01);
+}
+
+.navbar-toggler {
+  color: white; /* optional: makes the border white */
+}
+
+.navbar-toggler:hover{
+  box-shadow: none;
+
+}
+
 
 .card-details-booking {
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
