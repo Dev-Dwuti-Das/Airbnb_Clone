@@ -15,6 +15,21 @@ body {
   font-size: 20px;
 }
 
+.para1 {
+  color: aliceblue;
+  font-size: 15px;
+  opacity: 50%;
+}
+
+.dropdown-menu{
+  background-color: black;
+  border: rgb(122 0 255);
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 20px;
+  opacity: 1;
+
+}
 .hero_text_secondary {
   font-size: 75px;
   color: aliceblue;
@@ -41,14 +56,33 @@ body {
   height: 90px;
   width: 190px;
 }
-
-/* * {
+/* 
+* {
   border: #3cff00;
   border-width: 1px;
   border-style: solid;
 } */
 
+.valid-feedback{
+  font-weight: 600;
+  color: rgb(9, 202, 9);
+}
+.invalid-feedback{
+  font-weight: 600;
+  color:#d90d36
+}
 
+.red_alert{
+  border: #d90d36;
+  border-style: solid;
+  border-width: 5px;
+  font-weight: 600;
+  color: #f4f4f4;
+  background-color: #bb3751;
+  font-size: 17px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
 .homepage_widget_secondary {
   border-radius: 25px;
@@ -62,11 +96,6 @@ body {
 .btn:hover {
   background-color:rgb(144, 41, 253); 
 }
-
-.searchbox::placeholder {
-    color: white;
-    opacity: 1; 
-  }
 
 .fa-magnifying-glass {
   display: flex;
@@ -103,6 +132,21 @@ body {
 
 } */
 
+.formbox{
+  backdrop-filter: blur(10px) saturate(150%);
+  background-color: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 15px;
+  padding: 20px;
+  height: 35px;
+  
+  margin: 0;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  color: rgb(255, 255, 255);
+  transition: all 0.3s ease;
+  z-index: 0;
+}
+
 .searchbox {
   backdrop-filter: blur(10px) saturate(150%);
   background-color: rgba(255, 255, 255, 0.15);
@@ -112,13 +156,19 @@ body {
   height: 55px;
   width: 300px;
   margin: 0;
-  margin-left: -180px;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
   color: white;
   transition: all 0.3s ease;
   z-index: 0;
 }
 
+.formbox:focus {
+  background-color: rgba(255, 255, 255, 0.25);
+  border-color: rgba(255, 255, 255, 0.4);
+  box-shadow: none;
+  color: aliceblue;
+  outline: none;
+}
 /* Focus effect */
 .searchbox:focus {
   background-color: rgba(255, 255, 255, 0.25);
@@ -126,6 +176,15 @@ body {
   box-shadow: none;
   color: aliceblue;
   outline: none;
+}
+
+.formbox::placeholder{
+  color: white;
+  opacity: 0.6;
+}
+.searchbox::placeholder {
+  color: white;
+  opacity: 1;
 }
 
 .fa-circle-check {
@@ -254,9 +313,6 @@ h1 {
   transform: scale(1.01);
 }
 
-.navbar-toggler {
-  color: white; /* optional: makes the border white */
-}
 
 .navbar-toggler:hover{
   box-shadow: none;
@@ -306,6 +362,9 @@ h1 {
 
 .blue {
   background-color: #0026ff;
+}
+.purple{
+  color: rgb(122 0 255);
 }
 
 .yellow {

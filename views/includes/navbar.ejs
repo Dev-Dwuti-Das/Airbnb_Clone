@@ -41,15 +41,15 @@
             Login
           </button>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="/signup">Sign up</a></li>
-            <li><a class="dropdown-item" href="/login">Login</a></li>
+            <li><a class="dropdown-item home-link rounded-pill m-0" href="/signup">Sign up</a></li>
+            <li><a class="dropdown-item home-link rounded-pill" href="/login">Login</a></li>
           </ul>
         </div>
         <%}%>
 
         <% if(currentuser){ %>
         <a href="/logout">
-          <button class="btn btn-primary">Logout</button>
+          <button class="btn btn-primary rounded-pill">Logout</button>
         </a>
         <%}%>
       </div>

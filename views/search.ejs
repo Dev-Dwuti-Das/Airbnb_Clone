@@ -1,15 +1,36 @@
 <% layout('layouts/boiler') %>
 <body>
-<h1>Result for : "<%=searchTerm%>"</h1>
-<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-1 mt-3">
+<div 
+  class="row row-cols-xs-1 row-cols-sm-2 row-cols-md-2 row-cols-xxl-3 mt-3 g-3"
+  >
+
   <% for (let item of results) { %>
     <div class="col">
-      <div class="listingcard w-100">
-        <a href="/listing/details/<%= item._id %>" class="text-decoration-none text-dark">
-          <img src="<%= item.image.url %>" class="card-img-top" alt="Listing Image">
+      <div class="listingcard d-flex justify-content-center">
+        <a 
+        href="/listing/details/<%= item._id %>" 
+        class="text-decoration-none text-dark"
+        >
+          <div class="position-relative">
+            <div
+              class="hero_widget_btn position-absolute bottom-0 start-0 text-white p-2"
+            >
+             <button class="modern-btn p-2 px-2 rounded-pill">
+                <b class="fw-semibold"
+                  >&#8377; <%= item.price.toLocaleString("en-IN") %></b
+                >/nights
+              </button>
+            </div>
+          <img 
+           src="<%= item.image.url %>"
+           class="card-img-top img-fluid w-md-75"
+            alt="Listing Image"
+            />
+          </div>
+
           <div class="card-body">
-            <p class="card-text mx-auto"><%= item.title %><br>
-              <b>&#8377; <%= item.price.toLocaleString("en-IN") %></b> for 2 nights
+            <p class="para card-text mx-auto">
+              <%= item.title %><br>
             </p>
           </div>
         </a>
