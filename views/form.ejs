@@ -25,12 +25,14 @@
         </div>
     </div>
 
-    <div class="mb-3">
+<div class="mb-3">
     <label for="formFile" class="para ps-2 fw-semibold text-white">Choose Image</label>
-    <div class="formbox1 position-relative mt-2 p-2">
-        <input class="form-control bg-transparent border-0 text-white formbox-input" 
-               type="file" id="formFile" name="listing[image]" required>
-        <i class="fa-solid fa-cloud-arrow-up position-absolute top-50 end-0 translate-middle-y pe-3 text-white"></i>
+    <div class="formbox1 position-relative mt-2 p-2 d-flex align-items-center rounded-pill gap-3">
+        <span class="text-white" id="file-name">No photo added</span>
+        <label for="formFile" class="btn text-white rounded-pill px-4 py-2 mb-0">
+            <i class="fa-solid fa-cloud-arrow-up me-2"></i> Upload Image
+        </label>
+        <input class="d-none" type="file" id="formFile" name="listing[image]" required>
     </div>
     <div class="invalid-feedback ps-3">
         Upload an image !

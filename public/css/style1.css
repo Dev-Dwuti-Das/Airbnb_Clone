@@ -57,11 +57,11 @@ body {
   width: 190px;
 }
 
-* {
+/* * {
   border: #3cff00;
   border-width: 1px;
   border-style: solid;
-}
+} */
 
 .valid-feedback{
   font-weight: 600;
