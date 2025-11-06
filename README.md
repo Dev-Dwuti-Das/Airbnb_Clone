@@ -1,6 +1,6 @@
-# 🏡 Airbnb Clone
+# 🏡 Yatra Clone
 
-A full-stack **Airbnb-inspired web application** that allows users to create, browse, and book property listings. Built with **Node.js**, **Express**, **MongoDB**, and **EJS**, this project replicates key features of Airbnb, including **authentication**, **map integration**, **image uploads**, and a **booking system**.
+A full-stack **Booking web application** that allows users to create, browse, and book property listings. Built with **Node.js**, **Express**, **MongoDB**, and **EJS**, this project have key features including **authentication**, **map integration**, **image uploads**, and a **booking system**.
 
 ---
 
@@ -12,7 +12,7 @@ A full-stack **Airbnb-inspired web application** that allows users to create, br
 
 
 ## 🚀 Live Demo  
-🌐 **Hosted Link**: [Airbnb Clone](https://yatra-9ede.onrender.com)
+🌐 **Hosted Link**: [Yatra](https://yatra-9ede.onrender.com)
 
 ---
 
@@ -52,14 +52,14 @@ A full-stack **Airbnb-inspired web application** that allows users to create, br
 
 ## 📂 Project Structure
 ```
-Airbnb_Clone/
-├── models/         # Mongoose schemas (User, Listing, Review, etc.)
-├── routes/         # Express routes
-├── views/          # EJS templates
-├── public/         # Static files (CSS, JS, images)
-├── utils/          # Utility functions (middleware, validators)
-├── app.js          # Main server file
-└── package.json    # Dependencies and scripts
+Yatra/
+├── models/ # Schemas (User, Listing, Review, etc.)
+├── routes/ # App Routes
+├── views/ # EJS templates
+├── public/ # Static assets (CSS/JS)
+├── utils/ # Middleware & validation helpers
+├── app.js # Entry point
+└── package.json # Project metadata
 ```
 
 ---
@@ -69,8 +69,8 @@ Follow these steps to run the project locally:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Dev-Dwuti-Das/Airbnb_Clone.git
-   cd Airbnb_Clone
+   git clone https://github.com/Dev-Dwuti-Das/Yatra_Clone.git
+   cd Yatra_Clone
    ```
 
 2. **Install dependencies**
