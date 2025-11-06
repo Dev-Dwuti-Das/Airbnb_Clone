@@ -12,7 +12,7 @@ A full-stack **Airbnb-inspired web application** that allows users to create, br
 
 
 ## 🚀 Live Demo  
-🌐 **Hosted Link**: [Airbnb Clone](https://airbnb-clone-snm7.onrender.com/listing)
+🌐 **Hosted Link**: [Airbnb Clone](https://yatra-9ede.onrender.com)
 
 ---
 
