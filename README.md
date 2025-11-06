@@ -10,11 +10,6 @@ A full-stack **Airbnb-inspired web application** that allows users to create, br
 
 <img width="1899" height="924" alt="Image" src="https://github.com/user-attachments/assets/e0f1f9e0-e556-4579-912c-d01997ca57f3" />
 
-<img width="1901" height="934" alt="Image" src="https://github.com/user-attachments/assets/8a360d0f-c45a-4b65-8515-03c1e922d7c4" />
-
-<img width="1900" height="934" alt="Image" src="https://github.com/user-attachments/assets/9ab61d63-2eb9-40ff-9d40-4e2cb85ab6aa" />
-
-
 
 ---
 
