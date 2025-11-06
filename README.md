@@ -12,7 +12,7 @@ A full-stack **Booking web application** that allows users to create, browse, an
 
 
 ## 🚀 Live Demo  
-🌐 **Hosted Link**: [Yatra](https://yatra-9ede.onrender.com) (30s-50s)
+🌐 **Hosted Link**: [Yatra](https://yatra-9ede.onrender.com) (30sec)
 
 ---
 
