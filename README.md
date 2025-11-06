@@ -10,8 +10,6 @@ A full-stack **Airbnb-inspired web application** that allows users to create, br
 <img width="1899" height="924" alt="Image" src="https://github.com/user-attachments/assets/e0f1f9e0-e556-4579-912c-d01997ca57f3" />
 <img width="1899" height="924" alt="Image" src="https://github.com/user-attachments/assets/179629ee-9f8f-476d-8041-7e1ff0fc3928" />
 
-![Image](https://github.com/user-attachments/assets/179629ee-9f8f-476d-8041-7e1ff0fc3928)
----
 
 ## 🚀 Live Demo  
 🌐 **Hosted Link**: [Airbnb Clone](https://airbnb-clone-snm7.onrender.com/listing)
