@@ -1,4 +1,4 @@
-# 🏡 Yatra Clone
+# 🏡 Yatra
 
 A full-stack **Booking web application** that allows users to create, browse, and book property listings. Built with **Node.js**, **Express**, **MongoDB**, and **EJS**, this project have key features including **authentication**, **map integration**, **image uploads**, and a **booking system**.
 
@@ -69,8 +69,8 @@ Follow these steps to run the project locally:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Dev-Dwuti-Das/Yatra_Clone.git
-   cd Yatra_Clone
+   git clone https://github.com/Dev-Dwuti-Das/Yatra.git
+   cd Yatra
    ```
 
 2. **Install dependencies**
